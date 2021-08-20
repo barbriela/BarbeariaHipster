@@ -1,0 +1,104 @@
+<DOCTYPE html>
+	<html>
+
+    <head>
+
+    	<meta charset="utf-8">
+    	<title> Contato Barbearia Hipster </title>
+    	<link rel="stylesheet" href="reset.css">
+    	<link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+	    	<header>
+            <div class="caixa">
+                <h1><img src="logo.png" class="imgtopo" alt="Logo da Barbearia Hipster, ilustrado com um homem barbado e cabelo estiloso"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+         <main>
+            <form>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" id="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" id="input-padrao" required placeholder="seuemail@email.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" id="input-padrao" required placeholder="(xxx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="65" rows="15" id="mensagem" required></textarea>
+
+                <fieldset>
+
+                    <legend>Como prefere o nosso contato?</legend>
+                    
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="-email">Email</label>
+                   
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="-telefone">Telefone</label>
+                    
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="-whatsapp" checked>Whatsapp</fieldset>
+
+
+            <fieldset>
+
+                <legend>Qual horario prefere ser atendido?</legend>
+                <select>
+                    <option>Manha</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+
+            </fieldset>
+
+               <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" class="enviar" value="Enviar formulário">
+            </form>
+
+            <table>
+                <thead>
+                <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8 - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8 - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8 - 20h</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">Aguardamos Voce</td> 
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src="logo-branco.png" alt="Logo da barbearia alura, ilustrado com um homem barbado e cabelo estiloso">
+            <p class="copyright">&copy; Design & Code By @Barbrielart - 2021</p>
+        </footer>
+    </body>
+</html>
