@@ -1,5 +1,5 @@
 <h1 align="center">
-   Apeperia
+   Barbearia Hipster
 </h1>
 
 <img align="center" alt="Um sneakpeak de um dos meus primeiros projetos aprendendo html e css com a alura, o site Barbearia Hipster" width="100%" height="auto" src="https://i.giphy.com/media/JEmCuPVcM1yNwvAefk/giphy.webp">
